@@ -1,0 +1,370 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+.top_h_first div.free_ship{
+    display: none;
+}
+
+.top_h_first{
+    display: inline-block;
+}
+
+.currency_lan{
+    float: right;
+}
+
+    
+div.facility4{
+    display: none;
+}
+
+div.popu_img4{
+    display: none;
+}
+
+
+.mp_product5 ,  .mp_product6{
+    display: none;
+}
+
+
+img.img_brand7{
+    display: none;
+}
+
+.subscribe_input input{
+    width: 345px;
+}
+
+
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    .top_h_second{
+        display: none;
+    }
+
+    .search_bar{
+        display: none;
+    }
+
+    .user_wish:not(.user_wish_2){
+        display: none;
+    }
+
+    .user{
+        width: unset;
+    }
+
+    .love_header a i{
+        display: unset;
+    }   
+
+    .user2{
+        display: flex;
+    }
+
+    .love_header::after{
+        display: unset;
+    }
+
+    .love_header{
+        margin-right: 10px;
+    }
+
+    #menu{
+        display: none;
+    }
+
+
+    .logo{
+        width: 90%;
+    }
+
+
+    .user{
+        margin-right: 10px;
+    }
+
+ 
+    section#menu_res{
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: -300px;
+    z-index: 999999999999999;
+    transition: 0.5s;
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: 100%;
+    }
+
+
+    .menu_label{
+        display: unset;
+    }
+
+
+    #check_menu_sec:checked ~ #menu_res{
+        left: 0px;
+    }
+
+    #check_menu_sec:checked + .cross{
+        display: unset;
+    }
+
+    #check_menu_sec:checked ~ .overly{
+        visibility: visible;
+        opacity: 0.6;
+    }
+
+    .cross{
+        left: 320px;
+        position: sticky;
+    }
+
+
+    .cross i{
+        position: absolute;
+        top: 100px;
+    }
+
+    .h1_frist_section{
+     margin-left: 55%;
+    }
+
+    #slider , div.left_benefit_img{
+        padding-left: 18%;
+    }
+
+    
+    div.facility3{
+        display: none;
+    }
+    
+
+
+    img[src="new_brand6.png"]{
+        display: none;
+    }
+
+
+    .subscribe_input{
+        display: flex;
+    }
+
+    .subscribe_input input{
+        width: 73%;
+    }
+
+    .news_wrapper{
+        flex-direction: column;
+    }
+
+    .time_name, .timing{
+        font-size: 85%;
+    }
+
+
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .cross{
+        left: 280px;
+    }
+
+    #slider , div.left_benefit_img{
+        padding-left: 15%;
+    }
+
+
+    div.facility2{
+        display: none;
+    } 
+
+    div.facility1{
+        margin: 0 auto;
+    }
+
+    div.popu_img3{
+        display: none;
+    }
+
+
+    .mp_product4{
+        display: none;
+    }
+
+
+    .img_benefit_wrapper > div{
+        width: 100%;
+    }
+
+    .img_benefit_wrapper{
+        flex-direction: column;
+    }
+
+    .left_benefit_img{
+        margin-bottom: 20px;
+    }
+
+    .left_benefit_img *:not(h5.h5_again_section){
+        display: block;
+    }
+    
+
+    img[src="new_brand5.png"]{
+        display: none;
+    }
+
+    .right_recipe h5, .left_recipe h5{
+        line-height: 2;
+    }
+    
+
+    .menu_f_wrapper{
+        flex-direction: column;
+    }
+    
+
+.all_quick_wrapper{
+    flex-direction: column;
+}
+
+.big_product_left{
+    width: 100%;
+    height: 100%;
+}
+
+.quick{
+width: 100%;
+margin-top: 30px;
+}
+
+    
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+
+    .currency_lan{
+        float: left;
+    }
+
+    .user_wish_2{
+        display: none;
+    }
+
+    #slider , div.left_benefit_img{
+        padding-left: 7%;
+    }
+
+    .h1_frist_section {
+        margin-left: 41%;
+    }
+
+    .h6_frist_section {
+        margin-left: 25%;
+    }
+
+    .slider_heading_wrapper{
+        font-size: 61%;
+    }
+
+    div.popu_img2{
+        display: none;
+    }
+
+    .popu_img1{
+        width: 100%;
+    }
+    
+
+    .mp_product3{
+        display: none;
+    }
+
+    .mp_product_describe *:not(.stars) {
+        font-size: 14px;
+        line-height: 2;
+    }
+
+    .small_text_mp_product{
+        transform: translateY(-23px);
+    }
+
+    .stars{
+        line-height: 1;
+        margin-bottom: -5px;
+    }
+
+    
+    .mp_popu_ul li{
+    font-size: 70%
+    }
+
+
+    img[src="new_brand4.png"] , img[src="new_brand3.png"]{
+        display: none;
+    }
+
+
+    .left_recipe{
+        width: 100%;
+    }
+    
+    .right_recipe{
+        display: none;
+    }
+
+
+    .newslatter{
+       flex-direction: column;
+       align-items: center;
+       width: 100%;
+    }
+
+    .newslatter_text{
+        text-align: center;
+    }
+
+    
+.quick .mp_prodct_name{
+    margin-top: -30px;
+}
+
+
+
+}
+
+
+
+/* Very Extra small devices (phones, 320px and down) */
+@media only screen and (max-width: 320px) {
+    .user i, .love_header i {
+        font-size: 30px;
+        margin-right: 0px;
+    }
+
+    #slider , div.left_benefit_img{
+        padding-left: 4%;
+    }
+
+    .h1_frist_section {
+        margin-left: 0;
+    }
+
+    .h6_frist_section {
+        margin-left: 15%;
+    }
+
+    #slider h5.h5_frist_section{
+        margin-left: 203px;
+    }
+
+}
